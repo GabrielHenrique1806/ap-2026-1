@@ -3,7 +3,7 @@ algoritmo <media dos alunos>
 inicio
 
 var
-aluno
+aluno: caractere
 Inteiro: num1, num2, num3
 Real: Media
 
