@@ -1,0 +1,21 @@
+Escrever um algoritmo para determinar o consumo médio de um automóvel sendo
+fornecida a distância total percorrida pelo automóvel e o total de combustível gasto.
+
+
+algoritmo "media de consumo"
+
+var
+
+   n1, n2, M: real
+   
+inicio
+
+      escreva("Digite quantos km voce rodou hoje: ");
+      leia (n1);
+      escreva("Digite quantos litros de gasolina foi consumido: ");
+      leia (n2);
+      
+      M <- (n1 + n2) / 2;
+      escreva ("A media de consumo do seu combustivel é: ", M);
+
+fimalgoritmo

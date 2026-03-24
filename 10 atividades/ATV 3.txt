@@ -1,0 +1,23 @@
+Elaborar um algoritmo que efetue a apresentação do valor da conversão em real (R$)
+de um valor lido em dólar (US$). O algoritmo deverá solicitar o valor da cotação do dólar
+e também a quantidade de dólares disponíveis com o usuário.
+
+Algoritmo <Conversão>
+
+var
+
+valorDolar, dolarDisp, valorConv: Real
+
+inicio
+
+Escreva("Qual a cotação do dólar hoje? ");
+Leia(valorDolar);
+
+Escreva("Qual a  quantidade de dólares você tem disponível? ")
+Leia(dolarDisp);
+
+valorConv <- valorDolar * dolarDisp
+
+Escreva("O Valor da conversão em real (R$) do valor informado em dólar (US$) é de: R$ ", valorConv)
+
+fimalgoritmo

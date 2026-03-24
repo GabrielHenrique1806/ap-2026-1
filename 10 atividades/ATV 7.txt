@@ -1,0 +1,38 @@
+// Escrever um algoritmo que leia o nome e as três notas obtidas por um aluno de 0 a 10 durante o semestre. Calcular a soma das notas e sua média (aritmética), informar o nome e sua menção aprovado (media >= 7), Reprovado (media <= 5) e Recuperação (média entre 5.1 a 6.9)
+
+Algoritmo <Aprovação> 
+
+var
+nota1, nota2, nota3, soma, media: real
+nome: caractere
+
+Inicio
+
+Escreva("Insira o nome")
+Leia(nome)
+
+Escreva("Insira a primeira nota")
+Leia(nota1)
+
+Escreva("Insira a segunda nota")
+Leia(nota2)
+
+Escreva("Insira a terceira nota")
+Leia(nota3)
+
+soma <- nota1 + nota2 + nota3
+media <- soma / 3
+
+Se (media >= 7) então
+Escreva("O aluno", nome , "foi aprovado")
+
+Senao
+    Se(media >= 5.1) e (media <=6.9) então
+    Escreva("O aluno", nome , "está em recuperação")
+
+    Senao
+    Escreva("O aluno", nome , "está reprovado")
+FimSe
+   FimSe
+
+Fimalgoritmo

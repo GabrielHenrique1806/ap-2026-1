@@ -1,0 +1,20 @@
+Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit.
+A fórmula de conversão é: F=(9*C+160) / 5, sendo F a temperatura em Fahrenheit e C a
+temperatura em Celsius.
+
+algoritmo "CE para FA"
+
+var
+
+   TempF, TempC: real
+   
+inicio
+
+      escreva("Digite uma temperatura em celsius: ")
+      leia(TempC)
+      
+      TempF <- (9*C+160) / 5
+      
+      escreva("A sua temperatura convertida para fahrenheit é: ", TempF)
+
+fimalgoritmo
